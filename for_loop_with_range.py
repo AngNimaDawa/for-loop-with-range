@@ -1,0 +1,18 @@
+#for loop with range
+#When *= doesn't mean a kiss
+#In the previous program, we've written result += i instead of result = result + i. The operators +=, -=, *=, /= are common shortcuts; see the code section. 
+
+result = 0
+debt = 1000
+prod = 1
+divine = 100
+n = 5
+for i in range(1, n + 1):
+    result += i   # the same as result = result + i
+    debt -= i     # the same as debt = debt - i
+    prod *= i     # the same as prod = prod * i
+    divine /= i     # the same as divine = divine / i
+print(result)
+print(debt)
+print(prod)
+print(divine)
